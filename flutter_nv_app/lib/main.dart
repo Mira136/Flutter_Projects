@@ -15,14 +15,12 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        body: StopwatchExperiement(),
-        // body: Calculatorview(),
-        //body: CustomContainer(),
-        //body: ColumnContainer(),
-        //(child: Text('3456789'))),
-        // );
-      ),
+      home: StopwatchExperiemnt(),
+      // body: Calculatorview(),
+      //body: CustomContainer(),
+      //body: ColumnContainer(),
+      //(child: Text('3456789'))),
+      // );
     );
   }
 }
