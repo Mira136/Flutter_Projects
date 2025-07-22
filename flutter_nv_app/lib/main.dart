@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_nv_app/calculatorview.dart';
 import 'package:flutter_nv_app/containerexperiment.dart';
 import 'package:flutter_nv_app/columnexperiment.dart';
+import 'package:flutter_nv_app/stopwatch.dart';
 
 void main() {
   runApp(const MainApp());
@@ -14,7 +16,9 @@ class MainApp extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        body: CustomContainer(),
+        body: StopwatchExperiement(),
+        // body: Calculatorview(),
+        //body: CustomContainer(),
         //body: ColumnContainer(),
         //(child: Text('3456789'))),
         // );
