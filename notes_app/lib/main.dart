@@ -1,9 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/instapage.dart';
-import 'cart_page.dart';
-// import 'instapage.dart';
-//import 'package:flutter_application_1/dashboard_page.dart';
-//import 'package:flutter_application_1/login_page.dart';
+import 'package:notes_app/Screen/notes_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,8 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: 'Ecom App',
+      title: 'Flutter Demo',
       theme: ThemeData(
         // This is the theme of your application.
         //
@@ -36,11 +31,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      //home: LoginPage(),
-      //home: DashboardPage(),
-      //home: CartPage(),
-      //home: InstaPage(),
-      home: (),
+      home: NotesScreen(),
     );
   }
 }
