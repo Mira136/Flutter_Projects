@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_nv_app/calculatorview.dart';
-import 'package:flutter_nv_app/containerexperiment.dart';
-import 'package:flutter_nv_app/columnexperiment.dart';
+// import 'package:flutter_nv_app/calculatorview.dart';
+// import 'package:flutter_nv_app/containerexperiment.dart';
+// import 'package:flutter_nv_app/columnexperiment.dart';
 import 'package:flutter_nv_app/stopwatch.dart';
 
 void main() {
