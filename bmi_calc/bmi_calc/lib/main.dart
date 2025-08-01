@@ -1,9 +1,5 @@
 import 'package:flutter/material.dart';
-//import 'package:flutter_application_1/instapage.dart';
-//import 'package:flutter_application_1/login_page.dart';
-import 'package:flutter_application_1/splash_page.dart';
-//import 'cart_page.dart';
-//import 'package:flutter_application_1/dashboard_page.dart';
+import 'bmi_calc_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,8 +12,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
-      title: 'Ecom App',
       theme: ThemeData(
         // This is the theme of your application.
         //
@@ -36,11 +32,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      //home: LoginPage(),
-      //home: DashboardPage(),
-      //home: CartPage(),
-      //home: InstaPage(),
-      home: SplashPage(),
+      home: BmiCalcScreen(),
     );
   }
 }
